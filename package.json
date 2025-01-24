@@ -1,0 +1,55 @@
+{
+  "name": "homebridge-velux",
+  "description": "Homebridge plugin for Velux Integra KLF 200 gateway",
+  "displayName": "Homebridge Velux",
+  "author": "Erik Baauw",
+  "maintainers": [
+    "ebaauw"
+  ],
+  "license": "Apache-2.0",
+  "version": "0.0.0",
+  "keywords": [
+    "homebridge-plugin",
+    "homekit",
+    "velux",
+    "integra",
+    "klf200",
+    "klf"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "velux": "cli/velux.js"
+  },
+  "engines": {
+    "homebridge": "^1.8.5||^2.0.0-beta",
+    "node": "^22||^20||^18",
+    "klf200": "3.14"
+  },
+  "dependencies": {
+    "hb-velux-tools": "~0.0.2",
+    "homebridge-lib": "~7.1.2"
+  },
+  "scripts": {
+    "prepare": "standard",
+    "test": "standard && echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebaauw/homebridge-velux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebaauw/homebridge-velux/issues"
+  },
+  "homepage": "https://github.com/ebaauw/homebridge-velux#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ebaauw"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/ebaauw/EUR"
+    }
+  ]
+}
