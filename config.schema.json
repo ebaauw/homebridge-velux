@@ -26,6 +26,18 @@
               "type": "string",
               "required": true
             },
+            "id": {
+              "title": "ID",
+              "description": "A unique ID for the gateway, preferably its MAC address.",
+              "type": "string",
+              "required": true
+            },
+            "name": {
+              "title": "Name",
+              "description": "The name for the gateway.  Default: the hostname.",
+              "type": "string",
+              "required": false
+            },
             "password": {
               "title": "Password",
               "description": "The WiFi assword of the FLF 200 gateway.",
