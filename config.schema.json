@@ -28,7 +28,7 @@
             },
             "id": {
               "title": "ID",
-              "description": "A unique ID for the gateway, preferably its MAC address.",
+              "description": "A unique ID for the gateway, preferably its MAC address.  Default: the hostname.",
               "type": "string",
               "required": true
             },
