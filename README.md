@@ -30,7 +30,8 @@ It provides the following features:
 - Support for multiple KLF 200 gateways;
 - Includes `velux` command-line utility for troubleshooting.
 
-Homebridge Velux exposes an accessory for each connected device.
+Homebridge Velux exposes an accessory for each gateway and one for each connected device.
+The gateway accessory is used to control the polling rate and the log level.
 <!-- See the [Wiki](https://github.com/ebaauw/homebridge-velux/wiki/Velux-Accessory) for details. -->
 
 ### Prerequisites
