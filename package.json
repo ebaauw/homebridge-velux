@@ -27,7 +27,7 @@
     "klf200": "3.14"
   },
   "dependencies": {
-    "hb-velux-tools": "~1.0.0",
+    "hb-velux-tools": "~1.0.1",
     "homebridge-lib": "~7.1.9"
   },
   "scripts": {
