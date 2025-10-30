@@ -22,13 +22,13 @@
     "velux": "cli/velux.js"
   },
   "engines": {
-    "homebridge": "^1.11.0||^2.0.0-beta",
-    "node": "^22||^20",
+    "homebridge": "^1.11.1||^2.0.0-beta",
+    "node": "^24||^22||^20",
     "klf200": "3.14"
   },
   "dependencies": {
-    "hb-velux-tools": "~1.0.1",
-    "homebridge-lib": "~7.1.9"
+    "hb-velux-tools": "~1.0.3",
+    "homebridge-lib": "~7.1.12"
   },
   "scripts": {
     "prepare": "standard",
