@@ -3,7 +3,7 @@
 // velux.js
 //
 // Command line interface to Velux Integra KLF 200 gateway.
-// Copyright © 2025 Erik Baauw. All rights reserved.
+// Copyright © 2025-2026 Erik Baauw. All rights reserved.
 
 import { createRequire } from 'node:module'
 

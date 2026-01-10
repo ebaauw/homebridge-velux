@@ -16,7 +16,7 @@
 </span>
 
 ## Homebridge plugin for Velux Integra KLF 200 gateway
-Copyright © 2025 Erik Baauw. All rights reserved.
+Copyright © 2025-2026 Erik Baauw. All rights reserved.
 
 This [Homebridge](https://github.com/homebridge/homebridge) plugin exposes to Apple's [HomeKit](http://www.apple.com/ios/home/) Velux Integra devices connected to a Velux Integra KLF 200 gateway.  The KLF 200 provides a local API, unlike the newer Velux Active gateway.  This plugin does not support the Velux Active gateway.
 
