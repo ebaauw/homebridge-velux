@@ -22,7 +22,7 @@
     "velux": "cli/velux.js"
   },
   "engines": {
-    "homebridge": "^2.0.1",
+    "homebridge": "^2.1.0",
     "node": "^24||^22",
     "klf200": "3.14"
   },
